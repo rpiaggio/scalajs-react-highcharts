@@ -2,7 +2,7 @@ name := "scalajs-react-highcharts"
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-scalaVersion in ThisBuild := "2.13.4"
+scalaVersion in ThisBuild := "2.13.5"
 
 val highcharts         = "8.1.2"
 val scalaJsReact       = "1.7.7"
