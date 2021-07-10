@@ -5,7 +5,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 val highcharts         = "9.1.2"
 val scalaJsReact       = "1.7.7"
 val reactJS            = "16.13.1"
-val scalaJsReactCommon = "0.11.3"
+val scalaJsReactCommon = "0.12.0"
 
 addCommandAlias(
   "restartWDS",
