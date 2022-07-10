@@ -143,7 +143,7 @@ lazy val facade =
         "com.github.japgolly.scalajs-react" %%% "core"   % scalaJsReact,
         "io.github.cquiroz.react"           %%% "common" % scalaJsReactCommon,
         "com.github.japgolly.scalajs-react" %%% "test"   % scalaJsReact % Test,
-        "com.lihaoyi"                       %%% "utest"  % "0.7.11"     % Test
+        "com.lihaoyi"                       %%% "utest"  % "0.8.0"      % Test
       ),
       Compile / npmDependencies ++= Seq(
         "react"      -> reactJS,
